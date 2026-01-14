@@ -1,4 +1,4 @@
-pipeline_directory: /full/path/to/cloned/repo
+pipeline_directory: '/oak/stanford/groups/dpetrov/swalton/coalescence-phanta'
 
 # Sample file specifies sample names and names of files containing sample reads
 # Format: Tab-delimited, three columns
@@ -6,12 +6,12 @@ pipeline_directory: /full/path/to/cloned/repo
 # if paired end, all samples must be paired end
 # if single end, all samples must be single end
 # See example (samp_file.txt) in the testing folder
-sample_file: /full/path/to/sample/file
+sample_file: '/oak/stanford/groups/dpetrov/swalton/coalescence-phanta/'
 
 # In which directory should results be outputted?
-outdir: /full/path/to/output/directory
+outdir: '/oak/stanford/groups/dpetrov/swalton/coalescence-phanta/out/samples_phanta.tsv'
 
-database: /full/path/to/downloaded/database
+database: '/home/groups/bhgood/phanta_dbs/unmasked_db_v1'
 
 # Specifications for step one - classification of metagenomic reads
 confidence_threshold: 0.1 # increase to reduce false positives - range from 0-1
